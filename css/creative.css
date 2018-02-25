@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #212529 !important;
 }
 
 .bg-dark {
@@ -91,6 +91,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   font-weight: 700;
+  font-size: 24px;
   text-transform: uppercase;
   color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
