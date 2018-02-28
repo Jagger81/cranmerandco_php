@@ -4,8 +4,12 @@ html {
   height: 100%;
 }
 
-.profilepic {
-  border: .5rem solid rgba(255,255,255,.2);
+.fa-linkedin-square {
+  color: gray;
+}
+
+#profilepic {
+  border: .5rem solid rgba(240, 95, 64, 0.7);
 }
 
 body {
@@ -44,10 +48,25 @@ h6 {
 
 .bg-primary {
   background-color: #212529 !important;
+  background-image: url("../img/numbers.png");
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
 }
 
 .bg-dark {
   background-color: #212529 !important;
+  background-image: url("../img/portfolio_background.png");
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
+}
+
+#contact {
+  background-image: url("../img/contact_background.png");
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
 }
 
 .text-faded {
