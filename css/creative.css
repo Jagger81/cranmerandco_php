@@ -46,6 +46,10 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.bg-primary p{
+  text-align:justify;
+}
+
 .bg-primary {
   background-color: #212529 !important;
   background-image: url("../img/numbers.png");
@@ -249,6 +253,16 @@ header.masthead p {
   margin: 0 auto;
 }
 
+.text-block{
+    position: absolute;
+    top: 50px;
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+	opacity:0.8;
+}
+
 .portfolio-box .portfolio-box-caption {
   position: absolute;
   bottom: 0;
@@ -333,4 +347,9 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.btn-light:hover, .btn-light:focus, .btn-light:active {
+  color: #fff;
+  background-color: #ee4b28 !important;
 }
