@@ -339,27 +339,30 @@
     <div class="col-lg-8 mx-auto text-left">
 	<h2 class="section-heading">Send Us A Message!</h2>
             <hr class="my-4">
-    <form action="action_page.php">
+    <form action="action_page.php" method="POST">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	
+	<label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
 
-    <label for="country">How can we help...</label>
-    <select id="country" name="country">
-      <option value="australia">Auditing</option>
-      <option value="canada">Business Start-Up</option>
-      <option value="usa">Training Services</option>
-	  <option value="usa">PAYE & VAT</option>
-	  <option value="usa">Payroll & Bookkeeping</option>
+    <label for="category">How can we help...</label>
+    <select id="cat" name="category">
+      <option value="Auditing">Auditing</option>
+      <option value="Business Start-Up">Business Start-Up</option>
+      <option value="Training Services">Training Services</option>
+	  <option value="PAYE & VAT">PAYE & VAT</option>
+	  <option value="Payroll & Bookkeeping">Payroll & Bookkeeping</option>
     </select>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Type Your Message Here.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Send Message">
 
     </form>
     </div>
