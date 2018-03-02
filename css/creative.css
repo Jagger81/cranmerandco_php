@@ -73,25 +73,37 @@ h6 {
   background-size: cover;
 }
 
-/* currently not being used unless a background is required for the location section
+
   #location {
   background-color: gray !important;
   background-image: url("../img/location_background.png");
-  background-blend-mode: luminosity;
+  background-blend-mode: multiply;
   background-position: center center;
   background-size: cover;
   font-family: calibri;
   font-weight: bold;
   font-size: 20px;
+  color: rgba(238, 238, 238, 1);
 }
 
-#location_box {
+:#location_box {
   background-color: white !important;
   border-style: solid;
   border-width: 5px;
   border-color: white;
   padding:10px;
-} */
+  color: rgba(238, 238, 238, 1);
+}
+
+#location_map {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+
+  -moz-box-shadow: 10px 10px 15px #031121;
+  -webkit-box-shadow: 10px 10px 15px #031121;
+  box-shadow: 10px 10px 15px #031121;
+}
 
 /* test on using background images on services sections
   #test1 {
