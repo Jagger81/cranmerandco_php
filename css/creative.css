@@ -73,12 +73,33 @@ h6 {
   background-size: cover;
 }
 
-:#test1 {
+/* currently not being used unless a background is required for the location section
+  #location {
+  background-color: gray !important;
+  background-image: url("../img/location_background.png");
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#location_box {
+  background-color: white !important;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  padding:10px;
+} */
+
+/* test on using background images on services sections
+  #test1 {
   background-image: url("../img/portfolio/thumbnails/1a.jpg");
   background-blend-mode: luminosity;
   background-position: center center;
   background-size: cover;
-} 
+} */
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -247,6 +268,13 @@ header.masthead p {
   header.masthead h1 {
     font-size: 4rem;
   }
+}
+
+@media screen and (max-width: 1000px) {
+    #map_logo_img {
+         max-width:20%;
+         max-height:20%;
+    }
 }
 
 .service-box {
