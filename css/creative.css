@@ -73,6 +73,13 @@ h6 {
   background-size: cover;
 }
 
+:#test1 {
+  background-image: url("../img/portfolio/thumbnails/1a.jpg");
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
+} 
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -197,7 +204,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header2.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
