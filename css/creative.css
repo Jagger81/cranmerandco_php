@@ -270,12 +270,17 @@ header.masthead p {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
     #map_logo_img {
          max-width:20%;
          max-height:20%;
     }
-}
+	
+	#location_map {
+         max-width:90%;
+         max-height:90%;
+    }
+} /* used for setting the max-size of the map logo and google maps section */
 
 .service-box {
   max-width: 400px;
