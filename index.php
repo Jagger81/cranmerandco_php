@@ -359,8 +359,8 @@
 	  <option value="Payroll & Bookkeeping">Payroll & Bookkeeping</option>
     </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Type Your Message Here.." style="height:200px"></textarea>
+    <label for="message">Message</label>
+    <textarea id="mes" name="message" placeholder="Type Your Message Here.." style="height:200px"></textarea>
 
     <input type="submit" value="Send Message">
 
