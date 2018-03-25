@@ -73,8 +73,7 @@ h6 {
   background-size: cover;
 }
 
-
-  #location {
+#location {
   background-color: gray !important;
   background-image: url("../img/location_background.png");
   background-blend-mode: multiply;
@@ -86,7 +85,7 @@ h6 {
   color: rgba(238, 238, 238, 1);
 }
 
-:#location_box {
+:#location_box { /*currently not in use */
   background-color: white !important;
   border-style: solid;
   border-width: 5px;
@@ -113,21 +112,12 @@ h6 {
   background-size: cover;
 } */
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+#cat {
+	height: 62px;
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #F05F40;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -137,18 +127,43 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ee4b28;
 }
 
 /* Add a background color and some padding around the form */
 .contact_form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
+	color:white;
+	background-color: #212529 !important;
+    background-image: url("../img/contact_form_background3.jpg");
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
 }
 
 .contact_form h2{
     text-align:center;
+}
+.thank_you {
+    padding: 20px;
+	color:white;
+	background-color: #212529 !important;
+    background-image: url("../img/msg_received3.jpg");
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+	text-align:center;
+	height:350px;
+}
+
+.input-group-addon{
+	color:#ee4b28; 
+	background-color: #ffffff;
+    padding: 15px 10px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px 0px 0px 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+	font-size:20px;
 }
 
 .text-faded {
